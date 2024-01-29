@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    max-width: 250px;
+    min-height: 98dvh;
+}
+
+.link{
+    font-size: 15px;
+    height: 15px;
+    width: 217px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active{
+    font-size: 15px;
+    height: 15px;
+    width: 217px;
+    padding: 10px;
+    text-decoration: none;
+    color: #121212;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+}
